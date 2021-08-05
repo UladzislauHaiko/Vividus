@@ -1,0 +1,22 @@
+Composite: When I perform visual check of 5 pages
+
+When I establish baseline with `profilepage`
+When I compare_against baseline with `profilepage`
+
+When I click on element located `By.xpath(//a[@data-test-id='header-home-button'])`
+When I establish baseline with `boardspage`
+When I compare_against baseline with `boardspage`
+
+When I click on element located `By.xpath(//a[@data-test-id='home-link'])`
+When I establish baseline with `homepage`
+When I compare_against baseline with `homepage`
+
+When I click on element located `By.xpath(//a[@data-test-id='home-team-members-tab'])`
+When I establish baseline with `memberspage`
+When I compare_against baseline with `memberspage`
+
+
+When I click on element located `By.xpath(//a[@data-tab='settings'])`
+When I wait until state of element located `By.xpath(//a[@class='button-link u-text-align-center'])` is visible
+When I establish baseline with `settingspage`
+When I compare_against baseline with `settingspage`
